@@ -1,0 +1,28 @@
+{
+  "name": "tc3005b_citests2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/santiagoarista/TC3005B_CITests2#readme",
+  "bugs": {
+    "url": "https://github.com/santiagoarista/TC3005B_CITests2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagoarista/TC3005B_CITests2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
